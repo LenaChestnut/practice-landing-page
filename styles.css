@@ -784,7 +784,7 @@ and (max-width: 800) {}
         height: 60px;
     }
 
-    footer i {
+    footer .fa-camera {
         display: none;
     }
 
