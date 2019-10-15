@@ -544,7 +544,7 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 770px) {
 
     nav li:nth-child(3) {
         display: none;
@@ -624,7 +624,7 @@ footer a:hover {
 
     .welcome-page {
         padding: 2em 0 1em;
-        background: center center;
+        background: url("images/asoggetti-wg9shliyFbE-unsplash.jpg") no-repeat center center;
     }
 
     nav {
