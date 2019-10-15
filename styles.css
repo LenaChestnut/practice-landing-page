@@ -126,9 +126,12 @@ i {
     flex-direction: column;
     background: url("images/asoggetti-wg9shliyFbE-unsplash.jpg");
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
     background-size: cover;
     height: 100%;
-    width: auto;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 3em 0 1em;
@@ -634,15 +637,19 @@ footer a:hover {
     }
 
     nav {
-        width: 90%;
+        width: 85%;
     }
-
+    
     nav ul {
         font-size: 0.9rem;
+        justify-content: space-between;
+        align-items: center;
     }
-
+    
     nav li {
-        width: 25%;
+        display: inline;
+        width: auto;
+        text-align: left;
     }
 
     h1 {
