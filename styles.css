@@ -703,7 +703,11 @@ footer a:hover {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+@media only screen 
+    and (min-width: 320px) 
+    and (max-width: 480px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
     .welcome-page {
         padding: 2em 0 1em;
         background: url("images/asoggetti-wg9shliyFbE-unsplash_mobile.jpg");
