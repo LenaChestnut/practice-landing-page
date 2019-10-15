@@ -620,20 +620,11 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 450px) {
-    .systems {
-        width: 80%;
-    }
-
-    footer p, footer a {
-        font-size: 0.7rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
 
     .welcome-page {
         padding: 2em 0 1em;
+        background: center center;
     }
 
     nav {
@@ -667,5 +658,42 @@ footer a:hover {
 
     button i {
         font-size: 1.3rem;
+    }
+
+    .gallery-section {
+        padding: 4em 10%;
+    }
+
+    .gallery-section .fa-camera {
+        margin-top: 0;
+    }
+
+    .gallery-section .section-info {
+        width: 100%;
+    }
+
+    form h2 {
+        font-size: 1.2rem;
+    }
+
+    .input-field input {
+        width: 300px;
+    }
+
+    .download-section p {
+        width: 100%;
+    }
+
+
+    .systems {
+        width: 80%;
+    }
+
+    footer {
+        height: 60px;
+    }
+
+    footer p, footer a {
+        font-size: 0.5rem;
     }
 }
