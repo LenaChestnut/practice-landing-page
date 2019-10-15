@@ -624,6 +624,12 @@ footer a:hover {
 
     .welcome-page {
         padding: 2em 0 1em;
+        background: url("images/asoggetti-wg9shliyFbE-unsplash_mobile.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     nav {
