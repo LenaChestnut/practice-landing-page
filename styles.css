@@ -702,3 +702,85 @@ footer a:hover {
         font-size: 0.5rem;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .welcome-page {
+        padding: 2em 0 1em;
+        background: url("images/asoggetti-wg9shliyFbE-unsplash_mobile.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    nav {
+        width: 85%;
+    }
+    
+    nav ul {
+        font-size: 0.9rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    nav li {
+        display: inline;
+        width: auto;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .welcome-page p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    button i {
+        font-size: 1.3rem;
+    }
+
+    .gallery-section {
+        padding: 4em 10%;
+    }
+
+    .gallery-section .fa-camera {
+        margin-top: 0;
+    }
+
+    .gallery-section .section-info {
+        width: 100%;
+    }
+
+    form h2 {
+        font-size: 1.2rem;
+    }
+
+    .input-field input {
+        width: 300px;
+    }
+
+    .download-section p {
+        width: 100%;
+    }
+
+
+    .systems {
+        width: 80%;
+    }
+
+    footer {
+        height: 60px;
+    }
+
+    footer p, footer a {
+        font-size: 0.5rem;
+    }
+}
